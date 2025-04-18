@@ -1,0 +1,119 @@
+Java Programming
+│
+├── 1. Core Java
+│   ├── 1.1. Basics
+│   │   ├── Data Types (Primitive, Non-Primitive, Wrapper Classes)
+│   │   ├── Variables (Local, Instance, Static, Final)
+│   │   ├── Operators (Arithmetic, Relational, Logical, Bitwise, Unary, Ternary, Assignment)
+│   │   ├── Control Statements (if,if-else, switch, loops(for,do while,while,enhanced for), jumps(break,continue,return))
+│   │   ├── Arrays
+│   │   ├── Type Casting (Implicit, Explicit, instanceof)                              
+│   │   └── Java Memory Model (Stack, Heap, Method Area, GC, ClassLoader)
+│   │
+│   ├── 1.2. Object-Oriented Programming (OOP)
+│   │   ├── Class & Object
+│   │   ├── Constructor  (Default, Parameterized, Constructor Overloading)
+│   │   ├── Inheritance (Single, Multilevel, Hierarchical)
+│   │   ├── Polymorphism (compile-time: Method Overloading & Runtime: Overriding)
+│   │   ├── Encapsulation (Private Fields, Getters/Setters)
+│   │   ├── Abstraction (Abstract Class & Interface)
+│   │   ├── this, super, transient, volatile keywords
+│   │   ├── Static vs Non-static
+│   │   └── Nested & Inner Classes
+│   │
+│   ├── 1.3. Strings
+│   │   ├── String(Immutable, Pool, equals vs ==), StringBuilder(Non-thread-safe), StringBuffer(Thread-safe), String Pool
+│   │   └── String Methods (substring, split, indexOf, etc.)
+│   │                                
+│   ├── 1.4. Exception Handling
+│   │   ├── try-catch-finally
+│   │   ├── Multi-catch Block
+│   │   ├── throw & throws
+│   │   ├── Checked vs Unchecked Exceptions
+│   │   └── Custom Exceptions
+│   │
+│   ├── 1.5. Java I/O (Input/Output)
+│   │   ├── Streams
+│   │   │   ├── Byte: FileInputStream, FileOutputStream
+│   │   │   └── Char: FileReader, FileWriter
+│   │   ├── Generics,File Operations (exists, create, delete, list)
+│   │   ├── BufferedReader, Scanner
+│   │   ├── Byte Stream / Character Stream
+│   │   ├── ObjectInputStream, ObjectOutputStream
+│   │   └── Serialization & Deserialization
+│   │
+│   ├── 1.6. Java Collections Framework
+│   │   ├── List (ArrayList, LinkedList, Vector, Stack)
+│   │   ├── Set (HashSet, LinkedHashSet, TreeSet)
+│   │   ├── Queue (PriorityQueue, LinkedList, Deque)
+│   │   ├── Map (HashMap, TreeMap, LinkedHashMap, Hashtable, ConcurrentHashMap)
+│   │   ├── Traversal: Iterator, ListIterator, Enumeration
+│   │   ├── Collections & Arrays Utility Classes
+│   │   └── Comparable vs Comparator
+│   │
+│   ├── 1.7. Multithreading & Concurrency
+│   │   ├── Thread class & Runnable interface, Callable
+│   │   ├── Thread Lifecycle
+│   │   ├── Thread Methods (start, run, sleep, join, yield, wait, notify)
+│   │   ├── Synchronization (synchronized block/method)
+│   │   ├── Inter-thread communication (wait, notify)
+│   │   ├── Executor Framework (Executors, Callable, Future)
+│   │   ├── Thread Lifecycle & Daemon Threads
+│   │   └── Locks, Semaphores and Concurrency Utilities
+│   │
+│   ├── 1.8. Java 8 Features
+│   |   ├── Lambda Expressions
+│   |   ├── Stream API
+│   |   ├── Functional Interfaces
+│   |   ├── Default & Static Methods in Interfaces
+│   |   ├── Method References
+│   |   ├── Optional Class
+│   |   └── Date and Time API (java.time.*)
+│   │
+│   └── 1.9. Java Core APIs
+│       ├── java.lang, java.util, java.io
+│       ├── Wrapper Classes, Autoboxing
+│       ├── Java Date & Time API
+│       └── Enums, Annotations
+│
+├── 2. Advanced Java
+│   ├── JDBC (Java Database Connectivity)
+│   ├── JavaBeans
+│   ├── Servlets
+│   ├── JSP (JavaServer Pages)
+│   ├── Filters and Listeners
+│   ├── Sessions and Cookies
+│   └── JavaMail, FileUpload
+│
+├── 3. Spring & Spring Boot (Brief)
+│   ├── Spring Core (Dependency Injection, Beans, ApplicationContext)
+│   ├── Spring MVC (Controller, DispatcherServlet)
+│   ├── Spring Boot (Starters, Auto Configuration, Actuator)
+│   ├── Spring Data JPA (Repositories, Entity Mapping)
+│   ├── Spring Security (JWT, OAuth2, Authentication & Authorization)
+│   ├── AOP (Aspect-Oriented Programming)
+│   ├── Spring Validation
+│   └── Profiles & Environment Configuration
+│
+├── 4. Microservices Concepts
+│   ├── RESTful APIs (CRUD Operations, HTTP Methods, Status Codes)
+│   ├── Eureka (Service Discovery)
+│   ├── Feign Client (Declarative REST)
+│   ├── Ribbon (Client-side Load Balancing)
+│   ├── API Gateway (Zuul / Spring Cloud Gateway)
+│   ├── Circuit Breaker (Hystrix, Resilience4j)
+│   ├── Config Server & Centralized Configuration
+│   ├── Messaging (Kafka, RabbitMQ)
+│   ├── Service Communication (Sync/Async, REST vs Messaging)
+│   └── Distributed Tracing (Zipkin, Sleuth)
+│
+└── 5. Java Tools & Ecosystem
+    ├── Maven / Gradle (Build & Dependency Management)
+    ├── Git / GitHub / GitLab
+    ├── JUnit, Mockito (Unit Testing & Mocking)
+    ├── SonarQube (Code Quality)
+    ├── Docker, Kubernetes (Containerization & Orchestration)
+    ├── Jenkins, GitHub Actions, Azure Pipelines (CI/CD)
+    ├── Swagger / OpenAPI (API Documentation)
+    ├── Lombok (Boilerplate Code Reduction)
+    └── IDEs (IntelliJ IDEA, Eclipse, VS Code)
